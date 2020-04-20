@@ -39,3 +39,11 @@ print(tuple) # (1,['a','b','c'])
 ```
 
 Variables are just names we give to objects stored in memory, namely, the second element of tuple, and letters points to the same object in memory, so by changing the value of letters, the second item of tuple will automatically change. 
+
+
+## 1. Lists
+
+- Sorting : This can be done in O(nlog(n)) using two functions :
+    - sort() which modifies the list
+    - sorted() return a srted list
+    
